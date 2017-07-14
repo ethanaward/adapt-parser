@@ -1,0 +1,56 @@
+Source: adapt-parser
+Section: python
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Mario Izquierdo (mariodebian) <mariodebian@gmail.com>,
+           Thomas Goirand <zigo@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all-dbg,
+               python-all-dev (>= 2.6.6-3~),
+               python-setuptools,
+               python-pyee,
+               python3-pyee,
+               python3-all-dbg,
+               python3-all-dev,
+               python3-setuptools
+Standards-Version: 3.9.5
+
+Package: python-adapt-parser
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Provides: ${python:Provides}
+XB-Python-Version: ${python:Versions}
+Description: adapt-parser module for Python
+ This package contains the module for Python 2.x.
+
+Package: python-adapt-parser-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: python-dbg,
+         python-adapt-parser (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+XB-Python-Version: ${python:Versions}
+Description: adapt-parser module for Python 2.x debug extension
+ This package contains debug symbols of python-adapt-parser.
+
+Package: python3-adapt-parser
+Architecture: any
+Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
+Provides: ${python:Provides}
+Description: adapt-parser - Python 3.x
+ This package contains the module for Python 3.x.
+
+Package: python3-adapt-parser-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: python3-dbg,
+         python3-adapt-parser (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: adapt-parser - Python 3.x debug extension
+ This package contains debug symbols of python3-adapt-parser.
