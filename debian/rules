@@ -27,18 +27,3 @@ override_dh_auto_install:
 
 override_dh_install:
 	dh_install --list-missing
-
-override_dh_installdocs:
-	dh_installdocs
-	rm -rf debian/python-adapt-parser-dbg/usr/share/doc/python-adapt-parser-dbg
-	ln -s python-adapt-parser debian/python-adapt-parser-dbg/usr/share/doc/python-adapt-parser-dbg
-
-	rm -rf debian/python3-adapt-parser-dbg/usr/share/doc/python3-adapt-parser-dbg
-	ln -s python3-adapt-parser debian/python3-adapt-parser-dbg/usr/share/doc/python3-adapt-parser-dbg
-
-
-override_dh_strip:
-	dh_strip -X"python3" --dbg-package=python-adapt-parser-dbg
-	dh_strip -X"python2" --dbg-package=python3-adapt-parser-dbg
-
-

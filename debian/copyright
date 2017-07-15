@@ -3,8 +3,7 @@ Upstream-Name: adapt-parser
 Source: https://pypi.python.org/pypi/adapt-parser
 
 Files: debian/*
-Copyright: (c) 2008-2013, Mario Izquierdo (mariodebian) <mariodebian@gmail.com>
-           (c) 2014, Thomas Goirand <zigo@debian.org>
+Copyright: (c) 2017 Ethan Ward <ethan.ward@mycroft.ai>
 License: MIT-style
 
 Files: *

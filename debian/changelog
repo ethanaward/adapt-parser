@@ -1,5 +1,5 @@
-adapt-parser (0.3.0-0ubuntu1~ubuntu17.04~ppa5) zesty; urgency=medium
+adapt-parser (0.3.0-1) UNRELEASED; urgency=medium
 
-  * Fix dependencies
+  * Initial Debian release
 
- -- Mycroft Devs <devops@mycroft.ai>  Thu, 25 May 2017 09:53:40 -0500
+ -- Mycroft Devs <devops@mycroft.ai>  Fri, 14 July 2017 09:53:40 -0500
