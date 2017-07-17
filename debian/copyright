@@ -2,13 +2,14 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: adapt-parser
 Source: https://pypi.python.org/pypi/adapt-parser
 
+Files: *
+Copyright: (c) 2017 Sean Fitzgerald
+License: MIT-style
+
 Files: debian/*
 Copyright: (c) 2017 Ethan Ward <ethan.ward@mycroft.ai>
 License: MIT-style
 
-Files: *
-Copyright: (c) 2007, 2008 Alastair Houghton
-License: MIT-style
 
 License: MIT-style
  Permission is hereby granted, free of charge, to any person obtaining a copy
