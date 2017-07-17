@@ -16,13 +16,11 @@ override_dh_auto_clean:
 override_dh_auto_build:
 	set -ex && for pyvers in $(PYVERS) $(PY3VERS); do \
 		python$$pyvers setup.py build; \
-		python$$pyvers-dbg setup.py build; \
 	done
 
 override_dh_auto_install:
 	set -ex && for pyvers in $(PYVERS) $(PY3VERS); do \
 		python$$pyvers setup.py install --install-layout=deb --root $(CURDIR)/debian/tmp; \
-		python$$pyvers-dbg setup.py install --install-layout=deb --root $(CURDIR)/debian/tmp; \
 	done
 
 override_dh_install:
