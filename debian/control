@@ -5,13 +5,11 @@ Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.
 Uploaders: Mycroft Devs <devops@mycroft.ai>
 Build-Depends: debhelper (>= 9),
                dh-python,
-               python-all-dbg,
-               python-all-dev (>= 2.6.6-3~),
+               python-all,
                python-setuptools,
                python-pyee,
                python3-pyee,
-               python3-all-dbg,
-               python3-all-dev,
+               python3-all,
                python3-setuptools
 Standards-Version: 4.0.0
 
