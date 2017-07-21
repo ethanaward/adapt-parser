@@ -1,5 +1,5 @@
 adapt-parser (0.3.0-1) UNRELEASED; urgency=medium
 
-  * Initial Debian release
+  * Initial Debian release (closes: #869100)
 
  -- Mycroft Devs <devops@mycroft.ai>  Fri, 14 July 2017 09:53:40 -0500
