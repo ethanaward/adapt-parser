@@ -1,0 +1,20 @@
+From: Ethan Ward <ethan.ward@mycroft.ai>
+Date: Fri, 21 Jul 2017 17:52:15 -0500
+Subject: Loosen restriction on six
+
+---
+ setup.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/setup.py b/setup.py
+index 3826629..a54764c 100644
+--- a/setup.py
++++ b/setup.py
+@@ -15,6 +15,6 @@ setup(
+ 
+     install_requires = [
+         "pyee==1.0.1",
+-        "six==1.10.0"
++        "six>=1.10.0"
+     ]
+ )
