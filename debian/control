@@ -18,18 +18,18 @@ Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
 Provides: ${python:Provides}
 XB-Python-Version: ${python:Versions}
-Description: A text-to-intent parsing framework
+Description: Text-to-intent parsing framework
  This package contains the adapt module for Python 2. 
  The Adapt Intent Parser is a flexible and extensible intent definition and
  determination framework. It is intended to parse natural language text into
- a structured intent that can then be invoked programatically.
+ a structured intent that can then be invoked programmatically.
 
 Package: python3-adapt-parser
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
 Provides: ${python:Provides}
-Description: A text-to-intent parsing framework
+Description: Text-to-intent parsing framework
  This package contains the adapt module for Python 3. 
  The Adapt Intent Parser is a flexible and extensible intent definition and
  determination framework. It is intended to parse natural language text into
- a structured intent that can then be invoked programatically.
+ a structured intent that can then be invoked programmatically.
