@@ -16,7 +16,6 @@ Standards-Version: 4.0.0
 Package: python-adapt-parser
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
-Provides: ${python:Provides}
 XB-Python-Version: ${python:Versions}
 Description: Text-to-intent parsing framework
  This package contains the adapt module for Python 2. 
@@ -27,7 +26,6 @@ Description: Text-to-intent parsing framework
 Package: python3-adapt-parser
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
-Provides: ${python:Provides}
 Description: Text-to-intent parsing framework
  This package contains the adapt module for Python 3. 
  The Adapt Intent Parser is a flexible and extensible intent definition and
